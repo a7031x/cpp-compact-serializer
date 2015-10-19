@@ -58,9 +58,9 @@ The C++ compiler deduces what is the type of v in compile time, strip off the ty
 How the compiler determines the type andthe action?
 There are several ways,
 
-•Operators, such as std::is_pod, std::is_convertible, std::is_same.
-•Template specification.
-•Compiler specific syntax, such as __if_exists
+<li>•Operators, such as std::is_pod, std::is_convertible, std::is_same.</li>
+<li>•Template specification.</li>
+<li>•Compiler specific syntax, such as __if_exists.</li>
 
 Personally I don’t like the third way, and in most of cases they can be substituted with the first and second ways. But sometimes it’s simpler.
 
